@@ -278,6 +278,62 @@ hs.hotkey.bind({"cmd", "ctrl"}, "R", function()
   win:setFrame(f)
 end)
 
+-- quad left
+hs.hotkey.bind({"alt", "ctrl"}, "Z", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end)
+
+-- quad left middle
+hs.hotkey.bind({"alt", "ctrl"}, "X", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x + (max.w / 4)
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end)
+
+-- quad right middle
+hs.hotkey.bind({"alt", "ctrl"}, "C", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x + (2 * max.w / 4)
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end)
+
+-- quad right
+hs.hotkey.bind({"alt", "ctrl"}, "V", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.x + (3 * max.w / 4)
+  f.y = max.y
+  f.w = max.w / 4
+  f.h = max.h
+  win:setFrame(f)
+end)
+
 -- debugger
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "H", function()
   local win = hs.window.focusedWindow()
