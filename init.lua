@@ -1,5 +1,5 @@
 -- maximize
-hs.hotkey.bind({"cmd", "ctrl"}, "Return", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Return", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -13,7 +13,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "Return", function()
 end)
 
 -- left
-hs.hotkey.bind({"cmd", "ctrl"}, "Left", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Left", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -27,7 +27,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "Left", function()
 end)
 
 -- right
-hs.hotkey.bind({"cmd", "ctrl"}, "Right", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Right", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -41,7 +41,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "Right", function()
 end)
 
 -- up
-hs.hotkey.bind({"cmd", "ctrl"}, "Up", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Up", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -55,7 +55,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "Up", function()
 end)
 
 -- down
-hs.hotkey.bind({"cmd", "ctrl"}, "Down", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Down", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -69,7 +69,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "Down", function()
 end)
 
 -- top left
-hs.hotkey.bind({"cmd", "ctrl"}, "I", function()
+hs.hotkey.bind({"alt", "ctrl"}, "I", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -83,7 +83,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "I", function()
 end)
 
 -- top right
-hs.hotkey.bind({"cmd", "ctrl"}, "O", function()
+hs.hotkey.bind({"alt", "ctrl"}, "O", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -97,7 +97,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "O", function()
 end)
 
 -- bottom left
-hs.hotkey.bind({"cmd", "ctrl"}, "K", function()
+hs.hotkey.bind({"alt", "ctrl"}, "K", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -111,7 +111,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "K", function()
 end)
 
 -- bottom right
-hs.hotkey.bind({"cmd", "ctrl"}, "L", function()
+hs.hotkey.bind({"alt", "ctrl"}, "L", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -125,7 +125,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "L", function()
 end)
 
 -- left third
-hs.hotkey.bind({"cmd", "ctrl"}, "S", function()
+hs.hotkey.bind({"alt", "ctrl"}, "S", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -139,7 +139,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "S", function()
 end)
 
 -- center third
-hs.hotkey.bind({"cmd", "ctrl"}, "D", function()
+hs.hotkey.bind({"alt", "ctrl"}, "D", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -153,7 +153,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "D", function()
 end)
 
 -- right third
-hs.hotkey.bind({"cmd", "ctrl"}, "F", function()
+hs.hotkey.bind({"alt", "ctrl"}, "F", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -167,7 +167,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "F", function()
 end)
 
 -- top left sixth
-hs.hotkey.bind({"cmd", "ctrl"}, "T", function()
+hs.hotkey.bind({"alt", "ctrl"}, "T", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -181,7 +181,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "T", function()
 end)
 
 -- top center sixth
-hs.hotkey.bind({"cmd", "ctrl"}, "Y", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Y", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -195,7 +195,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "Y", function()
 end)
 
 -- top right sixth
-hs.hotkey.bind({"cmd", "ctrl"}, "U", function()
+hs.hotkey.bind({"alt", "ctrl"}, "U", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -209,7 +209,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "U", function()
 end)
 
 -- bottom left sixth
-hs.hotkey.bind({"cmd", "ctrl"}, "G", function()
+hs.hotkey.bind({"alt", "ctrl"}, "G", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -223,7 +223,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "G", function()
 end)
 
 -- bottom center sixth
-hs.hotkey.bind({"cmd", "ctrl"}, "H", function()
+hs.hotkey.bind({"alt", "ctrl"}, "H", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -237,7 +237,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "H", function()
 end)
 
 -- bottom right sixth
-hs.hotkey.bind({"cmd", "ctrl"}, "J", function()
+hs.hotkey.bind({"alt", "ctrl"}, "J", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -251,7 +251,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "J", function()
 end)
 
 -- left two thirds
-hs.hotkey.bind({"cmd", "ctrl"}, "W", function()
+hs.hotkey.bind({"alt", "ctrl"}, "W", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -265,7 +265,7 @@ hs.hotkey.bind({"cmd", "ctrl"}, "W", function()
 end)
 
 -- right two thirds
-hs.hotkey.bind({"cmd", "ctrl"}, "R", function()
+hs.hotkey.bind({"alt", "ctrl"}, "R", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -335,7 +335,7 @@ hs.hotkey.bind({"alt", "ctrl"}, "V", function()
 end)
 
 -- debugger
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "H", function()
+hs.hotkey.bind({"alt", "alt", "ctrl"}, "H", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
