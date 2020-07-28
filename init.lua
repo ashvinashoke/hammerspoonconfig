@@ -335,7 +335,7 @@ hs.hotkey.bind({"alt", "ctrl"}, "V", function()
 end)
 
 -- debugger
-hs.hotkey.bind({"alt", "alt", "ctrl"}, "H", function()
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "H", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
