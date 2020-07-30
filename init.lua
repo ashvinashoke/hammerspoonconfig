@@ -334,6 +334,49 @@ hs.hotkey.bind({"alt", "ctrl"}, "V", function()
   win:setFrame(f)
 end)
 
+-- EXPERIMENTAL: 2/9 windows
+-- 2/9 right
+hs.hotkey.bind({"alt", "ctrl"}, "M", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.w - (2 * max.w / 9)
+  f.y = max.y
+  f.w = max.w * 2 / 9
+  f.h = max.h
+  win:setFrame(f)
+end)
+
+-- 2/9 right - 2/9
+hs.hotkey.bind({"alt", "ctrl"}, "N", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.w - (2 * 2 * max.w / 9)
+  f.y = max.y
+  f.w = max.w * 2 / 9
+  f.h = max.h
+  win:setFrame(f)
+end)
+
+-- 2/9 right - 3 * 2/9
+hs.hotkey.bind({"alt", "ctrl"}, "B", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+  local screen = win:screen()
+  local max = screen:frame()
+
+  f.x = max.w - (3 * 2 * max.w / 9)
+  f.y = max.y
+  f.w = max.w * 2 / 9
+  f.h = max.h
+  win:setFrame(f)
+end)
+
 -- debugger
 hs.hotkey.bind({"cmd", "alt", "ctrl"}, "H", function()
   local win = hs.window.focusedWindow()
